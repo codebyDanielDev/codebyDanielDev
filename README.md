@@ -19,33 +19,79 @@
   </a>
 </div>
 
-<h3 align=center>Full Stack Developer | Computer Science Student</h3>
+<h3 align="center">Full Stack Developer | Computer Science Student</h3>
+
+![Banner](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
 
 ### About Me⚡
 
 - 👨🏻‍💼 My name is `Carlos Daniel Quispe`
 - 🏠 Live in `Cusco, Peru`
 - 🧍🏻‍♂️ `19` years old
-- 💻 `Dev Laravel FullStack` 
-- 🌟 Currently, `Laravel` and `Vue.js`.
+- 💻 `Dev Laravel FullStack`
+- 🌟 Currently working with `Laravel` and `Vue.js`
+- 🎓 Student at `Senati` pursuing a degree in `Software Engineering with AI`
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+I'm passionate about learning and mastering new technologies. My focus is on creating clean, scalable code using Laravel for backend development and Vue.js for front-end interfaces.
 
 ### Skill Set ⚔️
 
 #### Front-end
 
-[![My Frontend Skills](https://skillicons.dev/icons?i=html,css,vue,tailwind)](https://skillicons.dev)
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,vue,tailwind" alt="Frontend Skills" />
+</div>
 
 #### Back-end
 
-[![My Backend Skills](https://skillicons.dev/icons?i=nodejs,express,php,laravel)](https://skillicons.dev)
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,php,laravel" alt="Backend Skills" />
+</div>
 
 #### Full Stack
 
-[![My Full Stack Skills](https://skillicons.dev/icons?i=laravel)](https://skillicons.dev)
-
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=laravel" alt="Full Stack Skills" />
+</div>
 
 #### Database
 
-[![My Database Skills](https://skillicons.dev/icons?i=postgres,mysql,sqlite,mongodb,redis)](https://skillicons.dev)
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,mongodb,redis" alt="Database Skills" />
+</div>
+
+I specialize in advanced Laravel techniques and continuously work on enhancing my skills in both backend and frontend development.
+
+### Experience
+
+I'm currently building my portfolio with various open-source projects which will be available on my GitHub profile soon. Stay tuned for exciting new projects and contributions!
+
+### Projects
+
+I am in the process of developing several projects, focusing on integrating Laravel with Vue, implementing payment gateways, and sending notifications via WhatsApp.
+
+### Objectives and Future Plans
+
+My short-term goals include deepening my knowledge and expertise in Laravel and Vue.js. In the long term, I aim to master advanced concepts and techniques in full-stack development.
+
+### Contact and Social Media
+
+You can reach me via email or WhatsApp:
+
+- 📧 Email: [tardidaw@gmail.com](mailto:tardidaw@gmail.com)
+- 📱 WhatsApp: [+51931998025](https://wa.me/51931998025)
+
+Connect with me on my social media profiles:
+
+<div align="center">
+  <a href="https://www.linkedin.com/">
+    <img src="https://img.shields.io/badge/-LinkedIn-6A5CB6?style=flat&logo=Linkedin&logoColor=white"/>
+  </a>
+  <a href="https://www.instagram.com/">
+    <img src="https://img.shields.io/badge/-Instagram-6A5CB6?style=flat&logo=Instagram&logoColor=white">
+  </a>
+</div>
+
+Thank you for visiting my profile! Follow my journey and let's connect!
+
+![Footer](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
