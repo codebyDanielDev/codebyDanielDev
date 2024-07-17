@@ -27,7 +27,7 @@
 - 🏠 Live in `Cusco, Peru`
 - 🧍🏻‍♂️ `19` years old
 - 💻 `Dev Laravel FullStack` 
-- 🌟 Currently, `Laravel`, `Vue.js` and `react` are my favorite tech.
+- 🌟 Currently, `Laravel` and `Vue.js`.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
@@ -35,20 +35,17 @@
 
 #### Front-end
 
-[![My Frontend Skills](https://skillicons.dev/icons?i=html,css,react,tailwind)](https://skillicons.dev)
+[![My Frontend Skills](https://skillicons.dev/icons?i=html,css,vue,tailwind)](https://skillicons.dev)
 
 #### Back-end
 
-[![My Backend Skills](https://skillicons.dev/icons?i=nodejs,express,nestjs)](https://skillicons.dev)
+[![My Backend Skills](https://skillicons.dev/icons?i=nodejs,express,php,laravel)](https://skillicons.dev)
 
 #### Full Stack
 
-[![My Full Stack Skills](https://skillicons.dev/icons?i=js,ts,nextjs)](https://skillicons.dev)
+[![My Full Stack Skills](https://skillicons.dev/icons?i=laravel)](https://skillicons.dev)
 
-#### Mobile
-
-[![Android Skills](https://skillicons.dev/icons?i=kotlin,java)](https://skillicons.dev)
 
 #### Database
 
-[![My Database Skills](https://skillicons.dev/icons?i=postgres,mysql,sqlite,mongodb,firebase)](https://skillicons.dev)
+[![My Database Skills](https://skillicons.dev/icons?i=postgres,mysql,sqlite,mongodb,redis)](https://skillicons.dev)
