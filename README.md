@@ -78,7 +78,7 @@ My short-term goals include deepening my knowledge and expertise in Laravel and 
 
 You can reach me via email or WhatsApp:
 
-- 📧 Email: [tardidaw@gmail.com](mailto:tardidaw@gmail.com)
+- 📧 Email: [quispecarlosdaniel078@gmail.com](mailto:tardidaw@gmail.com)
 - 📱 WhatsApp: [+51931998025](https://wa.me/51931998025)
 
 Connect with me on my social media profiles:
