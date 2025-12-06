@@ -1,11 +1,11 @@
 <div align="center">
-  <a href="https://www.linkedin.com/">
+  <a href="https://www.linkedin.com/in/carlos-daniel-quispe-quispe-74822352-1-xd/">
     <img src="https://img.shields.io/badge/-LinkedIn-6A5CB6?style=flat&logo=Linkedin&logoColor=white"/>
   </a>
-  <a href="https://www.facebook.com/nfitec/">
+  <a href="/">
     <img src="https://img.shields.io/badge/-Facebook-6A5CB6?style=flat&logo=Facebook&logoColor=white">
   </a>
-  <a href="https://www.instagram.com/nizariyf_/">
+  <a href="">
     <img src="https://img.shields.io/badge/-Instagram-6A5CB6?style=flat&logo=Instagram&logoColor=white">
   </a>
 </div>
@@ -14,7 +14,7 @@
   <a href="https://wakatime.com/@b58ec643-eaf9-47b9-b755-cba1ef70cda2">
     <img src="https://wakatime.com/badge/user/b58ec643-eaf9-47b9-b755-cba1ef70cda2.svg"/>
   </a>
-  <a href="https://github.com/nizarfadlan?tab=followers">
+  <a href="https://github.com/nizarfadlan?tab=followers](https://github.com/codebyDanielDev">
     <img src="https://img.shields.io/github/followers/nizarfadlan.svg?style=social&label=Follow">
   </a>
 </div>
