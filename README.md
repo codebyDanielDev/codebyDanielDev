@@ -27,7 +27,7 @@
 
 - 👨🏻‍💼 My name is `Carlos Daniel Quispe`
 - 🏠 Live in `Cusco, Peru`
-- 🧍🏻‍♂️ `19` years old
+- 🧍🏻‍♂️ `20` years old
 - 💻 `Dev Laravel FullStack`
 - 🌟 Currently working with `Laravel` and `Vue.js`
 - 🎓 Student at `Senati` pursuing a degree in `Software Engineering with AI`
