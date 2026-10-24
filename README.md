@@ -8,8 +8,8 @@
   <a href="https://www.linkedin.com/in/carlosdanielquispebr">
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0B1220?style=flat-square&logo=linkedin&logoColor=5EEAD4">
   </a>
-  <a href="mailto:contact@danielquispe.dev">
-    <img alt="Email" src="https://img.shields.io/badge/contact@danielquispe.dev-0B1220?style=flat-square&logo=maildotru&logoColor=5EEAD4">
+  <a href="mailto:hello@danielquispe.dev">
+    <img alt="Email" src="https://img.shields.io/badge/hello@danielquispe.dev-0B1220?style=flat-square&logo=maildotru&logoColor=5EEAD4">
   </a>
   <a href="https://borapay.app">
     <img alt="BoraPay" src="https://img.shields.io/badge/borapay.app-0B1220?style=flat-square&logo=pix&logoColor=5EEAD4">
@@ -163,7 +163,7 @@ writing. Work in progress.
 
 <p align="center">
   <sub>Open to interesting problems in payments, messaging and automation.</sub><br>
-  <sub><a href="mailto:contact@danielquispe.dev">contact@danielquispe.dev</a></sub>
+  <sub><a href="mailto:hello@danielquispe.dev">hello@danielquispe.dev</a></sub>
 </p>
 
 [^pix]: Pix is Brazil's instant payment system, run by the central bank. Over 700 financial institutions support it, and it settles in seconds.
