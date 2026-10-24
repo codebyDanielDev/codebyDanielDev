@@ -1,97 +1,169 @@
-<div align="center">
-  <a href="https://www.linkedin.com/in/carlos-daniel-quispe-quispe-74822352-1-xd/">
-    <img src="https://img.shields.io/badge/-LinkedIn-6A5CB6?style=flat&logo=Linkedin&logoColor=white"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img alt="Carlos Daniel Quispe — AI Implementation Specialist" src="assets/banner-light.svg" width="100%">
+</picture>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/carlosdanielquispebr">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0B1220?style=flat-square&logo=linkedin&logoColor=5EEAD4">
   </a>
-  <a href="/">
-    <img src="https://img.shields.io/badge/-Facebook-6A5CB6?style=flat&logo=Facebook&logoColor=white">
+  <a href="mailto:contact@danielquispe.dev">
+    <img alt="Email" src="https://img.shields.io/badge/contact@danielquispe.dev-0B1220?style=flat-square&logo=maildotru&logoColor=5EEAD4">
   </a>
-  <a href="">
-    <img src="https://img.shields.io/badge/-Instagram-6A5CB6?style=flat&logo=Instagram&logoColor=white">
+  <a href="https://borapay.app">
+    <img alt="BoraPay" src="https://img.shields.io/badge/borapay.app-0B1220?style=flat-square&logo=pix&logoColor=5EEAD4">
   </a>
-</div>
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=nizarfadlan&right_color=%236A5CB6&right_text=white" />
-  <a href="https://wakatime.com/@b58ec643-eaf9-47b9-b755-cba1ef70cda2">
-    <img src="https://wakatime.com/badge/user/b58ec643-eaf9-47b9-b755-cba1ef70cda2.svg"/>
-  </a>
-  <a href="https://github.com/nizarfadlan?tab=followers](https://github.com/codebyDanielDev">
-    <img src="https://img.shields.io/github/followers/nizarfadlan.svg?style=social&label=Follow">
-  </a>
-</div>
+</p>
 
-<h3 align="center">Full Stack Developer | Computer Science Student</h3>
+<p align="center">
+  <sub><b>Payments</b> · <b>Conversational AI</b> · <b>Automation</b> — São Paulo, Brazil</sub>
+</p>
 
-![Banner](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
+---
 
-### About Me⚡
+I build web software that moves money, answers customers and removes manual work.
 
-- 👨🏻‍💼 My name is `Carlos Daniel Quispe`
-- 🏠 Live in `Cusco, Peru`
-- 🧍🏻‍♂️ `20` years old
-- 💻 `Dev Laravel FullStack`
-- 🌟 Currently working with `Laravel` and `Vue.js`
-- 🎓 Student at `Senati` pursuing a degree in `Software Engineering with AI`
+> [!NOTE]
+> **Most of my work lives in private repositories.** The contribution graph below is
+> real, but the code behind it is closed — client systems and a payments product in
+> production. What I *can* show, I show here.
 
-I'm passionate about learning and mastering new technologies. My focus is on creating clean, scalable code using Laravel for backend development and Vue.js for front-end interfaces.
+<br>
 
-### Skill Set ⚔️
+## BoraPay
 
-#### Front-end
+<table>
+<tr>
+<td width="60%" valign="top">
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,vue,tailwind" alt="Frontend Skills" />
-</div>
+**Cross-border Pix[^pix] infrastructure between Brazil and Peru.**
 
-#### Back-end
+A merchant in Peru charges in soles. A tourist from Brazil pays with Pix in
+reais. BoraPay quotes the rate, generates the QR, confirms the payment and
+tracks settlement into the merchant's local bank account.
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,express,php,laravel" alt="Backend Skills" />
-</div>
+Built end to end — architecture, data modelling, integrations, deploys and
+production maintenance.
 
-#### Full Stack
+**In production, with real merchants.**
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=laravel" alt="Full Stack Skills" />
-</div>
+</td>
+<td width="40%" valign="top">
 
-#### Database
+| | |
+|:--|:--|
+| **Backend** | Laravel |
+| **Frontend** | Vue + Inertia |
+| **Data** | PostgreSQL |
+| **Infra** | Laravel Cloud · Cloudflare Edge |
+| **Rails** | Pix |
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,mongodb,redis" alt="Database Skills" />
-</div>
+<a href="https://borapay.app">
+  <img alt="Visit BoraPay" src="https://img.shields.io/badge/Visit-borapay.app-5EEAD4?style=for-the-badge&labelColor=0B1220">
+</a>
 
-I specialize in advanced Laravel techniques and continuously work on enhancing my skills in both backend and frontend development.
+</td>
+</tr>
+</table>
 
-### Experience
+```mermaid
+flowchart LR
+    M["Merchant · Peru<br/>charges in S/"] --> API["Laravel API"]
+    API --> FX["FX quote"]
+    FX --> QR["Pix QR"]
+    QR --> T["Tourist · Brazil<br/>pays in R$"]
+    T -. "webhook" .-> API
+    API --> DB[("PostgreSQL")]
+    API --> Q["Async queue"]
+    Q --> S["Settlement tracking"]
+    S --> M
 
-I'm currently building my portfolio with various open-source projects which will be available on my GitHub profile soon. Stay tuned for exciting new projects and contributions!
+    style API fill:#0B1220,stroke:#5EEAD4,color:#E6EDF3
+    style DB fill:#0B1220,stroke:#5EEAD4,color:#E6EDF3
+    style Q fill:#0B1220,stroke:#5EEAD4,color:#E6EDF3
+```
 
-### Projects
+<details>
+<summary><b>How a single charge actually flows</b></summary>
 
-I am in the process of developing several projects, focusing on integrating Laravel with Vue, implementing payment gateways, and sending notifications via WhatsApp.
+<br>
 
-### Objectives and Future Plans
+```mermaid
+sequenceDiagram
+    autonumber
+    participant M as Merchant PE
+    participant B as BoraPay
+    participant P as Pix network
+    participant T as Tourist BR
 
-My short-term goals include deepening my knowledge and expertise in Laravel and Vue.js. In the long term, I aim to master advanced concepts and techniques in full-stack development.
+    M->>B: amount in soles
+    B->>B: lock FX quote
+    B->>P: create charge
+    P-->>B: QR payload
+    B-->>T: QR code
+    T->>P: pays in reais
+    P-->>B: confirmation webhook
+    B->>B: idempotent write + audit trail
+    B-->>M: confirmed, settlement queued
+```
 
-### Contact and Social Media
+Engineering concerns that shape the system: **idempotent webhook handling**
+(the network retries), **async queues** for anything slower than a request,
+**traceability** on every state change, and **failure handling** that never
+leaves a charge in an unknown state.
 
-You can reach me via email or WhatsApp:
+</details>
 
-- 📧 Email: [quispecarlosdaniel078@gmail.com](mailto:tardidaw@gmail.com)
-- 📱 WhatsApp: [+51931998025](https://wa.me/51931998025)
+<br>
 
-Connect with me on my social media profiles:
+## Stack
 
-<div align="center">
-  <a href="https://www.linkedin.com/">
-    <img src="https://img.shields.io/badge/-LinkedIn-6A5CB6?style=flat&logo=Linkedin&logoColor=white"/>
-  </a>
-  <a href="https://www.instagram.com/">
-    <img src="https://img.shields.io/badge/-Instagram-6A5CB6?style=flat&logo=Instagram&logoColor=white">
-  </a>
-</div>
+| | |
+|:--|:--|
+| **Backend** | PHP · Laravel · PostgreSQL · REST APIs · queues · webhooks |
+| **Frontend** | Vue · Inertia · TypeScript · Tailwind |
+| **AI** | Generative AI APIs · conversational agents · WhatsApp integrations |
+| **Infra** | Laravel Cloud · Cloudflare · Git |
 
-Thank you for visiting my profile! Follow my journey and let's connect!
+<br>
 
-![Footer](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
+<details>
+<summary><b>Background</b></summary>
+
+<br>
+
+**AI Implementation Specialist** — YaVendió, São Paulo &nbsp;·&nbsp; <sub>current</sub>
+Conversational AI for commerce: agent configuration, WhatsApp integration,
+catalog structuring, commercial flow validation and merchant onboarding.
+
+**Full-stack developer** — BoraPay &nbsp;·&nbsp; <sub>independent project</sub>
+Cross-border Pix payment flows between Brazil and Peru.
+
+**Studying** — Data Science & AI Engineering, SENATI
+**Certified** — Meta · *Facilitate client onboarding to WhatsApp for Business*
+
+**Languages** — Spanish <sub>native</sub> · Portuguese <sub>professional</sub> · English
+
+</details>
+
+<details>
+<summary><b>Also building</b></summary>
+
+<br>
+
+**[danielquispe.dev](https://danielquispe.dev)** — personal site and technical
+writing. Work in progress.
+
+</details>
+
+<br>
+
+---
+
+<p align="center">
+  <sub>Open to interesting problems in payments, messaging and automation.</sub><br>
+  <sub><a href="mailto:contact@danielquispe.dev">contact@danielquispe.dev</a></sub>
+</p>
+
+[^pix]: Pix is Brazil's instant payment system, run by the central bank. Over 700 financial institutions support it, and it settles in seconds.

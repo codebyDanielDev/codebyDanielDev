@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Carlos Daniel Quispe — AI Implementation Specialist">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#111C2E"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5EEAD4" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#5EEAD4" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="280" rx="14" fill="url(#bg)"/>
+
+  <g opacity="0.07" stroke="#5EEAD4" stroke-width="1">
+    <path d="M0 70 H1200 M0 140 H1200 M0 210 H1200"/>
+    <path d="M880 0 V280 M960 0 V280 M1040 0 V280 M1120 0 V280"/>
+  </g>
+
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="72" y="118" fill="#E6EDF3" font-size="52" font-weight="700" letter-spacing="-1">Carlos Daniel Quispe</text>
+    <text x="72" y="162" fill="#5EEAD4" font-size="21" font-weight="600" letter-spacing="0.3">AI Implementation Specialist</text>
+    <text x="72" y="198" fill="#8B949E" font-size="17" font-weight="400">Payments · Conversational AI · Automation — S&#227;o Paulo, Brazil</text>
+  </g>
+
+  <rect x="72" y="222" width="260" height="3" rx="1.5" fill="url(#rule)"/>
+
+  <g transform="translate(900 92)" fill="none" stroke="#5EEAD4" stroke-width="2.5" stroke-linecap="round">
+    <circle cx="0" cy="48" r="17" opacity="0.85"/>
+    <circle cx="96" cy="0" r="17" opacity="0.6"/>
+    <circle cx="96" cy="96" r="17" opacity="0.6"/>
+    <circle cx="192" cy="48" r="17" opacity="0.85"/>
+    <path d="M15 40 L81 10 M15 56 L81 86 M111 10 L177 40 M111 86 L177 56" opacity="0.45"/>
+  </g>
+</svg>
